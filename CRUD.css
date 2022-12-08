@@ -1,0 +1,227 @@
+.mainBlock {
+    display: flex;
+    flex-direction: row;
+    padding: 54px 44px;
+    position: relative;
+    width: 1451px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+.edit_Block {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px 40px;
+
+    left: 522px;
+    top: 313px;
+    background: #eaeaea8c;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+.formEdit {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.add_user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px 40px;
+    gap: 24px;
+    width: 397px;
+    height: 399px;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+    margin-left: 24px;
+    border-radius: 20px;
+}
+.formAddUserCrud {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 349px;
+
+}
+input[type="text" i] {
+    width: 349px;
+    height: 40px; 
+    background: #FFFFFF;
+    border:none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(134, 143, 160, 0.16);
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+.CRUDText{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.inputCRUD{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 349px;
+
+    border: none;
+}
+.addCrud{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 349px;
+    height: 42px;
+    background: #EB7F69;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.addCrud:hover{
+    background: #b2695b;
+}
+.addCrud:active{
+    background: #7f473c;
+}
+.saveCRUD{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 349px;
+    height: 42px;
+    border: none;
+    background: #EB7F69;
+    border-radius: 8px;
+}
+.saveCRUD:hover{
+    background: #b2695b;
+}
+.saveCRUD:active{
+    background: #7f473c;
+}
+.justEdit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 143px;
+    height: 42px;
+    background: #EB7F69;
+    border-radius: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-bottom: 8px;
+}
+.justEdit:hover{
+    background: #a16357;
+}
+.deleteCRUD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 143px;
+    height: 42px;
+    background: #FF5353;
+    border-radius: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.deleteCRUD:hover{
+    background-color:rgb(212, 78, 78);
+}
+
+.deleteCRUD:active{
+    background-color:rgb(204, 49, 49);
+}
+.EditCRUDText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #1E1F22;
+}
+.CRUDText{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+}
+
+.CRUD_Hello{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 17px 18px 24px;
+    gap: 27px;
+
+    background: #FDFDFD;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+    margin-bottom: 24px;
+    
+}
+.TextCRUD_LK{
+    width: 190px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #1E1F22;
+}
+.btn_exit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 210px;
+    height: 42px;
+    background: #EB7F69;
+    border-radius: 8px;
+}
+.btn_exit:hover{
+    background: #c57869; 
+}
+.exitA{
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.TextHelloCRUD{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1E1F22;
+}
+.switchBlock {
+    display: flex;
+    flex-direction: column;
+}
+.addUserText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1E1F22;
+}

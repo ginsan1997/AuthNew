@@ -1,0 +1,184 @@
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px 40px;
+    gap: 24px;
+    /* width: 397px; */
+    height: 500px;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+
+}
+.reg_text,.log_text{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
+.formReg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login,.confirmPassword,.password,.email,.name{
+    width: 335px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(134, 143, 160, 0.16);
+    border-radius: 6px;
+    margin-bottom: 16px;
+    padding-left: 12px;
+    border: none;
+}
+
+.submit_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 349px;
+    height: 42px;
+    background: #EB7F69;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+
+}
+.submit_btn:hover{
+    background: #d48171;
+    cursor: pointer;
+}
+
+
+
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px 40px;
+    gap: 24px;
+    /* width: 397px; */
+    height: 287px;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+.formLog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error{
+    max-width: 300px ;
+    display: flex;
+    color: rgb(238, 56, 56);
+    font-size: 10px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    margin-bottom: 5px;
+}
+.btn_exit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 210px;
+    height: 42px;
+    background: #EB7F69;
+    border-radius: 8px;
+}
+.btn_exit:hover{
+    background: #bc6554;
+}
+.exitA {
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+
+.success{
+    color: rgb(37, 203, 62);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 54px 44px;
+    gap: 83px;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+.blockLK{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 17px;
+    gap: 27px;
+    width: 552px;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+}
+.CRUD_enter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 196px;
+    height: 42px;
+    border-radius: 8px;
+}
+.helloName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1E1F22;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 486px;
+    height: 32px;
+}
+.divBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 518px;
+    height: 42px;
+}
+
+.aCrud {
+    text-decoration: none;
+    color: #EB7F69;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+}
+.aCrud:hover{
+    color: #ae7b71;
+}
